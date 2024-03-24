@@ -1,8 +1,12 @@
+import { WrapperElement } from "./Wrapper.styled"
+
 function Wrapper ({children}) {
     return (
-        <div className="wrapper">
+
+		<WrapperElement>
+        {children}
+        </WrapperElement>
 		
-		{children}
 
 			
 		
@@ -10,7 +14,7 @@ function Wrapper ({children}) {
 		
 		
 		
-    </div>
+   
     )
 }
 
