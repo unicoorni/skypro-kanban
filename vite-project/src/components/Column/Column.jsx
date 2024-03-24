@@ -2,6 +2,7 @@ import Card from "../Card/Card";
 import { Cards, ColumnTitle, ColumnTitleP, MainColumn } from "./Column.styled";
 
 function Column({ title, cardList }) {
+
   return (
     
       <MainColumn>

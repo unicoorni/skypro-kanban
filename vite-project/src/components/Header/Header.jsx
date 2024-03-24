@@ -3,13 +3,15 @@ import { Container } from "../Common/Common.styled";
 import { HeaderBlock, HeaderBtnMainNew, HeaderElement, HeaderLogo, HeaderNav, HeaderUser } from "./Header.styled";
 
 function Header ({ addCard }) {
+
+  
   const [isOpened, setIsOpened] = useState(false);
 
   function togglePopUp() {
     setIsOpened((prev) => !prev);
   }
   return (
-      <HeaderElement>
+      <HeaderElement >
         <Container>
           <HeaderBlock>
             <HeaderLogo>

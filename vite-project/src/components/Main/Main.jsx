@@ -11,6 +11,7 @@ const statusList = [
   ];
 
 function Main({isLoaded, cardList}) {
+  
     return (
           <MainElement>
           <Container> 
