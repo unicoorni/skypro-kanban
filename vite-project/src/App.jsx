@@ -46,7 +46,6 @@ function App() {
         {/* <Route path={appRoutes.NOT_FOUND} element={<NotFoundPage/>} /> */}
         <Route path={appRoutes.REGISTER} element={<RegisterPage/>} />
         {/* <Route path={appRoutes.EXIT} element={<PopExitPage/>} /> */}
-
       </Routes>
     </>
   );
