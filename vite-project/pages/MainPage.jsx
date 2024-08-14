@@ -1,12 +1,12 @@
-import PopExit from "./components/PopExitComponent/PopExit";
-import PopNewCard from "./components/PopNewCard/PopNewCard";
-import PopBrowse from "./components/PopBrowse/PopBrowse";
-import Header from "./components/Header/Header";
-import Wrapper from "./components/Wrapper/Wrapper";
-import Main from "./components/Main/Main";
 import { useState } from "react";
 import { useEffect } from "react";
-import { cardList } from "./data";
+import PopExit from "../src/components/PopExitComponent/PopExit";
+import PopNewCard from "../src/components/PopNewCard/PopNewCard";
+import PopBrowse from "../src/components/PopBrowse/PopBrowse";
+import Header from "../src/components/Header/Header";
+import Wrapper from "../src/components/Wrapper/Wrapper";
+import Main from "../src/components/Main/Main";
+import cardList from "../src/data";
 
 export default function MainPage() {
   const [cards, setCards] = useState(cardList);

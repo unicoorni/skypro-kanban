@@ -1,4 +1,4 @@
-export const cardList = [
+ const cardList = [
 
     {
   
@@ -57,3 +57,4 @@ export const cardList = [
     },
   
   ];
+  export default cardList;
